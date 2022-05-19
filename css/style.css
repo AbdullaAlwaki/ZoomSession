@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 51, 51);
+  color: rgb(255, 255, 255);
+}
+
+main {
+  background-color: rgb(91, 91, 91);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+main div {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  background-color: rgb(52, 51, 51);
+  color: rgb(255, 255, 255);
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 15px;
+}
+main div:nth-child(1) {
+  background-image: url("../img/student-1.jpeg");
+}
+main div:nth-child(2) {
+  background-image: url("../img/student-2.jpeg");
+}
+main div:nth-child(3) {
+  background-image: url("../img/student-3.jpeg");
+}
+main div:nth-child(4) {
+  background-image: url("../img/student-4.jpeg");
+}
+main div:nth-child(5) {
+  background-image: url("../img/student-5.jpeg");
+}
+main div:nth-child(6) {
+  background-image: url("../img/student-6.jpeg");
+}
+main div:nth-child(7) {
+  background-image: url("../img/student-7.jpeg");
+}
+main div:nth-child(8) {
+  background-image: url("../img/student-8.jpeg");
+}
+main div:nth-child(9) {
+  background-image: url("../img/student-9.jpeg");
+}
+main div i {
+  color: rgb(29, 173, 0);
+  font-size: 2rem;
+}
+main div span {
+  background-color: rgba(110, 110, 110, 0.5);
+  padding: 5px;
+}
+
+footer {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(52, 51, 51);
+  color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 51, 51);
+  color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+footer div i {
+  font-size: 2rem;
+  padding-bottom: 15px;
+  color: rgb(29, 173, 0);
+}
+footer div input {
+  border: none;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: rgb(223, 0, 0);
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */
